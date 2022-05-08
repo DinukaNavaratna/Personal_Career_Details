@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/complaint.xml" value="0.17844202898550723" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/fragment_maps.xml" value="0.18297101449275363" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/home.xml" value="0.18297101449275363" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/login.xml" value="0.18297101449275363" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/map.xml" value="0.18297101449275363" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/personal_info.xml" value="0.17844202898550723" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/personal_qualification.xml" value="0.17844202898550723" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/personal_qualifications.xml" value="0.17844202898550723" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/register.xml" value="0.18297101449275363" />
+        <entry key="..\:/Freelance/Career Info/app/src/main/res/layout/splash_screen.xml" value="0.18297101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -46,6 +46,8 @@ class Home : AppCompatActivity() {
     lateinit var home_include_qualifications: View
     lateinit var home_include_complaint: View
     lateinit var home_topic: TextView
+    lateinit var logoutButton: ImageButton
+    lateinit var complaintButton: ImageButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,6 +61,8 @@ class Home : AppCompatActivity() {
         certificates_path = ""
 
         editButton = findViewById<ImageButton>(R.id.editButton)
+        logoutButton = findViewById<ImageButton>(R.id.logoutButton)
+        complaintButton = findViewById<ImageButton>(R.id.complaintButton)
         var home_data = findViewById<Button>(R.id.home_data)
         var home_qualifications = findViewById<Button>(R.id.home_qualifications)
         home_include_data = findViewById<View>(R.id.home_include_data)
@@ -178,6 +182,8 @@ class Home : AppCompatActivity() {
     }
 
     fun openLocation(view: View){
+        complaintButton.visibility = View.GONE
+        logoutButton.visibility = View.GONE
         mapFrame.visibility = View.VISIBLE
         var transaction: FragmentTransaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.mapFrame, MapsFragment());
@@ -190,6 +196,8 @@ class Home : AppCompatActivity() {
         sp.setPreference("info_location_lng", lng)
         info_location.text = lat+", "+lng
         mapFrame.visibility = View.GONE
+        complaintButton.visibility = View.VISIBLE
+        logoutButton.visibility = View.VISIBLE
         Toast.makeText(this, "Location configured!", Toast.LENGTH_SHORT).show()
     }
 
